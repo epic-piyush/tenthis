@@ -8,7 +8,7 @@ $type = $_GET['type'];
 $day = urldecode($_GET['day']);
 $code = $_GET['code'];
 
-include("con.php");
+include("connection.php");
     $user = base64_decode($u);
 
     $insert_data = "INSERT INTO tasks_history (email, amount, task_id, type, day, status)

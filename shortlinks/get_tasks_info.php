@@ -1,7 +1,7 @@
 <?php 
 session_start();
     $id = $_GET['id'];
-    include("con.php");
+    include("connection.php");
 $check_profile = "SELECT * FROM tasks WHERE id = '$id'";
      $res = mysqli_query($con, $check_profile);
      mysqli_num_rows($res);

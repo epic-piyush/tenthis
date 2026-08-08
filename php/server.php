@@ -1,7 +1,7 @@
 <?php
 session_start();
 date_default_timezone_set("Asia/Kolkata");
-include("con.php");
+include("connection.php");
 $email = "";
 $name = "";
 $errors = array();

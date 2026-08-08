@@ -3,7 +3,7 @@ session_start();
 $u = $_GET['u'];
 $a = $_GET['a'];
 
-include("con.php");
+include("connection.php");
     $user = base64_decode($u);
 
     $update_wallet = "UPDATE users SET balance = '$a' WHERE email = '$user'";

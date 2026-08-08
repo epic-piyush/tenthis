@@ -1,7 +1,7 @@
 <?php 
 session_start();
 
-include("con.php");
+include("connection.php");
 
 if(isset($_GET['u'])){
     $u = $_GET['u'];
