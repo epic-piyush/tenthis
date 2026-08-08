@@ -85,14 +85,6 @@ Open issues or submit pull requests. For quick fixes, prefer small, focused chan
 
 ## License
 
-This project has no explicit license file. If you intend to reuse or distribute it, add a license (for example, MIT) to clarify permissions.
+This project has no explicit license file.
 
 ---
-
-If you'd like, I can also:
-
-- add environment-specific sample config files (e.g., `php/connection.sample.php`),
-- secure the admin path, or
-- generate a short setup script to automate DB import and credential editing.
-
-Tell me which of these you'd like next.
