@@ -61,5 +61,5 @@ echo "<div class='error'>$error</div>";
 </form>
 <div class="success">You need to complete the tasks needed. Need to complete atleast 11 tasks , Add your wallet and complete atleast 0 students offer. 
 </div>
-<div class="ad"><?php include("php/ad.php"); ?></div>
+<?php include("php/ad.php"); ?>
     <?php include("php/menu-bar.php"); ?>

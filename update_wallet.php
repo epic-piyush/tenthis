@@ -48,5 +48,5 @@ if($profile['wallet'] == "Not added"){
      <div class="form-row">
        <button type="submit" value="submit" name="add"> <font size="3">Add Wallet</font></button></div></form>
     <div class="error">If wallet already added. You cannot update it</div>
-    <div class="ad"><?php include("php/ad.php"); ?></div>
+    <?php include("php/ad.php"); ?>
     <?php include("php/menu-bar.php"); ?>

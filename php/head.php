@@ -5,7 +5,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <link href="img/icon.png" rel="icon" type="image/x-icon">
-  <title>TenthIs</title>
+  <title>Tenthis</title>
   <meta name="viewport" content="width=device-width">
   <meta name="description" content="Complete Task & Earn. Refer & Earn Money. Tenthis Web">
   <meta name="author" content="tenthisweb">

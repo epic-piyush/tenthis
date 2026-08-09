@@ -48,6 +48,5 @@ if($theme == "dark"){
      }else{
      echo '<a href="logout"><b> <div class="p">Logout</div> </a></b>';
      }?>
-    <div class="ad"><?php include("php/ad.php"); ?>
-  </div>
+    <?php include("php/ad.php"); ?>
 <?php include("php/menu-bar.php"); ?>

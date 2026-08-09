@@ -37,5 +37,5 @@ if(isset($_POST['add'])){
      </div>
      <div class="form-row">
        <button type="submit" value="submit" name="add"> <font size="3">Submit</font></button></div></form>
-    <div class="ad"><?php include("php/ad.php"); ?></div>
+    <?php include("php/ad.php"); ?>
     <?php include("php/menu-bar.php"); ?>

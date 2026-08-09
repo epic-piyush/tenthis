@@ -22,5 +22,5 @@ echo " <div class='h-bar'><div class='row'>".$h['type']."</div><hr><div class='r
     ?>
     </div>
 </div>
-<div class="ad"><?php include("php/ad.php"); ?></div>
+<?php include("php/ad.php"); ?>
 <?php include("php/menu-bar.php"); ?>

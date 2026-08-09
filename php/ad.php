@@ -1,1 +1,1 @@
-Advetisment
+<div class="ad">Advetisment</div>

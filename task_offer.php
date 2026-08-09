@@ -35,5 +35,5 @@ echo "<a href='view_task?id=".$id."' target='_blank'><div class='h-bar'><div cla
     ?>
     
 </div>
-<div class="ad"><?php include("php/ad.php"); ?></div>
+<?php include("php/ad.php"); ?>
     <?php include("php/menu-bar.php"); ?>

@@ -20,6 +20,5 @@ Email : tenthisweb@gmail.com<br>
      <a href="mailto:tenthisweb@gmail.com"><b>  <div class="p">Email </div> </a></b>
      <a href="feedback"><b>  <div class="p">Feedback</div> </a></b>
      <a href="promote"><b> <div class="b promo">Promote Your Product</div> </a></b>
-    <div class="ad"><?php include("php/ad.php"); ?>
-  </div>
+    <?php include("php/ad.php"); ?>
     <?php include("php/menu-bar.php"); ?>

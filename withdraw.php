@@ -74,5 +74,5 @@ if($profile['status'] != "notverified"){
      <div class="form-row">
        <button type="submit" value="submit" name="withdraw"> <font size="3">Withdraw</font></button></div></form>
     <div class="error">Withdraw Limit : Once a day.</div>
-    <div class="ad"><?php include("php/ad.php"); ?></div>
+    <?php include("php/ad.php"); ?>
     <?php include("php/menu-bar.php"); ?>

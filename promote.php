@@ -46,5 +46,5 @@ if(isset($_POST['promote'])){
     In Insta Post : 1 impression = 0.35Rs. Ex- 100 impressions = 35Rs.<br>
     In Webiste Page : 1 impression = 0.65Rs. Ex- 100 impressions = 65Rs.<br>
     You need to pay before active the promotion. All impressions will be verified and original from our registered users.</div>
-    <div class="ad"><?php include("php/ad.php"); ?></div>
+    <?php include("php/ad.php"); ?>
     <?php include("php/menu-bar.php"); ?>

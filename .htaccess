@@ -11,3 +11,6 @@ RewriteRule ^ %1 [R=302,L,NE]
 ## To internally redirect /dir/foo to /dir/foo.php
 RewriteCond %{REQUEST_FILENAME}.php -f [NC]
 RewriteRule ^ %{REQUEST_URI}.php [L]
+
+#To redirect 404
+ErrorDocument 404 /tenth/tenthis/404.php

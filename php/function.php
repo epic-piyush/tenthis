@@ -8,7 +8,7 @@ if(isset($_COOKIE['PHPSESID'])){
     $user = base64_decode(str_replace('uuk2', '=', $u));
 }else{
     array_push($errors, "<a href='login'>Need to login!.</a>");
-    if($_SERVER['PHP_SELF'] != "/tenthis/index.php" && $_SERVER['PHP_SELF'] != "/tenthis/promote.php"){
+    if($_SERVER['PHP_SELF'] != "/tenth/tenthis/index.php" && $_SERVER['PHP_SELF'] != "/tenth/tenthis/promote.php"){
         header("location: login");
     }
 }

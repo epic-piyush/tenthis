@@ -97,5 +97,5 @@ if($task['type'] == "Shortlink"){
      <div class="form-row">
        <button type="submit" value="submit" name="submit"> <font size="3">Submit</font></button></div></form>
 <?php } ?>
-<div class="ad"><?php include("php/ad.php"); ?></div>
+<?php include("php/ad.php"); ?>
     <?php include("php/menu-bar.php"); ?>

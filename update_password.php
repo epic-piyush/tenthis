@@ -32,5 +32,5 @@ if(isset($_POST['update'])){
      <div class="form-row">
        <button type="submit" value="submit" name="update"> <font size="3">Update</font></button></div></form>
     <div class="error">If you forget your old password you need to contact us.</div>
-    <div class="ad"><?php include("php/ad.php"); ?></div>
+    <?php include("php/ad.php"); ?>
     <?php include("php/menu-bar.php"); ?>

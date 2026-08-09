@@ -75,6 +75,6 @@ $check_history = "SELECT * FROM tasks_history WHERE email='$user' AND task_id = 
 
 ?>
 
-    <div class="ad"><?php include("php/ad.php"); ?></div>
+    <?php include("php/ad.php"); ?>
     <br><br>
 </body></html>
