@@ -1,15 +1,6 @@
 <?php require './php/function.php';?>
 <!DOCTYPE html>
-<html>
 <?php include("php/head.php"); ?>
-<body>
-
-<div class="contact-wrapper">
-  <div class="header">
-    <header> <h2><?php echo $web_title; ?></h2>
-        </header>
-</div>
-
 <div class="p"><b>
 Telegram : @tenthis_contact_bot<br>
 Instagram : @tenthis_web<br>
