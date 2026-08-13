@@ -1,4 +1,4 @@
-<?php $web_title = '<img src="img/logo.png">'; ?>
+<?php $web_title = '<img src="img/logo.png" alt="TENTHIS">'; ?>
 <!DOCTYPE html>
 <html>
 

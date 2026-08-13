@@ -38,8 +38,8 @@ if($profile['wallet'] == "Not added"){
 ?>
 <form method="POST" action="" autocomplete="off">
    <div class="form-row">
-       <input type="number" name="wallet" minlength="10" maxlength="10" required="" placeholder="Ex- 9399300000">
-       <span>Enter Your Wallet</span>
+       <input type="email" name="wallet"  required="" placeholder="Ex- 9399300000@upi">
+       <span>Enter Your UPI ID</span>
      </div>
    <div class="form-row">
        <input type="password" name="password" minlength="6" maxlength="1000" required="">
