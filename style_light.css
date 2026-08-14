@@ -239,7 +239,7 @@ div {
 .header {
     background-color: rgb(69, 144, 191);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    boarder: solid 1px rgb(69, 144, 191);
+    border: solid 1px rgb(69, 144, 191);
     border-radius: 5px;
 }
 
