@@ -115,6 +115,34 @@ ALTER TABLE `feedbacks` ADD PRIMARY KEY (`id`);
 ALTER TABLE `feedbacks`
 MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
+
+CREATE TABLE `shortlinks` (
+    `id` int(11) NOT NULL,
+    `user` varchar(255) NOT NULL,
+    `short_id` varchar(255) NOT NULL,
+    `session_id` varchar(255) NOT NULL,
+    `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4;
+
+ALTER TABLE `shortlinks` ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `shortlinks`
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+CREATE TABLE `impression` (
+    `id` int(11) NOT NULL,
+    `user` varchar(255) NOT NULL,
+    `short_id` varchar(255) NOT NULL,
+    `session_id` varchar(255) NOT NULL,
+    `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    `status` text NOT NULL
+) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4;
+
+ALTER TABLE `impression` ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `impression`
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
 INSERT INTO
     users (
         id,

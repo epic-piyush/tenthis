@@ -1,6 +1,6 @@
 <?php require './php/function.php';?>
 <?php include("php/head.php"); ?>
-<div class="p">
+<div class="p" style="justify-content: center;">
     <?php 
     if(isset($_GET['id'])){
         $id = $_GET['id'];
@@ -69,7 +69,10 @@ $check_history = "SELECT * FROM tasks_history WHERE email='$user' AND task_id = 
 <div class="p">Amount :  <b>  <?php echo $task['amount']; ?> points</b></div>
 <div class="p">Total Vailidity :  <b> <?php echo $task['validity']; ?> users</b></div>
 <div class="p">Total Completed :  <b> <?php echo $task['users']; ?> users</b></div>
-<?php if($task['type'] == "Shortlink"){
+
+<?php 
+if ($task['status'] == "open") {
+if($task['type'] == "Shortlink"){
     echo '<div class="p">Code :  <b> '.$task["code"].'</b></div>';
 }
 ?>
@@ -96,6 +99,11 @@ if($task['type'] == "Shortlink"){
      <input type="hidden" name="id" value="<?php echo $task['id']; ?>">
      <div class="form-row">
        <button type="submit" value="submit" name="submit"> <font size="3">Submit</font></button></div></form>
-<?php } ?>
+<?php } 
+
+}else{
+    echo '<div class="error">Task Status Closed.</div>';
+}
+    ?>
 <?php include("php/ad.php"); ?>
     <?php include("php/menu-bar.php"); ?>
