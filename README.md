@@ -75,6 +75,15 @@ The admin area provides functionality for managing:
 * Rewards
 * Platform activity
 
+### 📸 Screenshots
+
+<div align="center">
+  <img src="screenshots/index_dark.png" alt="Index" width="400" />
+  <img src="screenshots/login_page.png" alt="Login Page" width="400" />
+  
+  <p><i>Left: User Dashboard | Right: Admin Panel</i></p>
+</div>
+
 ---
 
 ## 🧰 Tech Stack
