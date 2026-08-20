@@ -81,7 +81,7 @@ The admin area provides functionality for managing:
   <img src="screenshots/index_dark.png" alt="Index" width="400" />
   <img src="screenshots/login_page.png" alt="Login Page" width="400" />
   
-  <p><i>Left: User Dashboard | Right: Admin Panel</i></p>
+  <p><i>Left: INDEX PAGE | Right: LOGIN PAGE</i></p>
 </div>
 
 ---
