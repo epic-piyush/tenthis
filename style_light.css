@@ -183,7 +183,7 @@ p {
 
 div {
     border-radius: 1px;
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
     padding: 2px;
 }
 
@@ -322,20 +322,37 @@ a .p {
     height: 25px;
 }
 
-.h-bar {
+.h-bar, .r-bar {
     display: -webkit-box;
     display: flex;
     margin: 6px;
     border: 2px solid #57b474;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.15);
     position: relative;
 }
-
-.h-bar .row {
+.h-bar .row, .r-bar .row {
     flex: 1;
     cursor: pointer;
     margin: 6px;
     text-align: center;
     border-radius: 5px;
+}
+
+.r-bar {
+    color: #4da14a;
+} 
+.r-bar:hover, .r-bar:active{
+    background-color: #f2f2f2;
+    color: #fff;
+}
+.r-bar .closed, .h-bar #failed, .h-bar #Failed {
+    font-weight: bold;
+    color: #ff0000;
+}
+.r-bar .open , .h-bar #success, .h-bar #Success {
+    font-weight: bold;
+    color: #2c5e2b;
 }
 
 .ad {

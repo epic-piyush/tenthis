@@ -27,7 +27,6 @@ if(isset($_POST['promote'])){
    
    <select name="type" required>
     <option value="Youtube">Youtube Video</option>
-    <option value="Instagram">Insta Post</option>
     <option value="WebPage">Website Page</option>
 </select>
 <span>Select Promotion Type</span>
@@ -43,7 +42,6 @@ if(isset($_POST['promote'])){
      <div class="form-row">
        <button type="submit" value="submit" name="promote"> <font size="3">Promote</font></button></div></form>
     <div class="success">In Youtube Video : 1 impression = 0.5Rs. Ex- 100 impressions = 50Rs.<br>
-    In Insta Post : 1 impression = 0.35Rs. Ex- 100 impressions = 35Rs.<br>
     In Webiste Page : 1 impression = 0.65Rs. Ex- 100 impressions = 65Rs.<br>
     You need to pay before active the promotion. All impressions will be verified and original from our registered users.</div>
     <?php include("php/ad.php"); ?>

@@ -21,7 +21,7 @@ $check_history = "SELECT * FROM withdraws WHERE email = '$user'";
 $res2 = mysqli_query($con, $check_history);
 if(mysqli_num_rows($res2) > 0){
 while($h = mysqli_fetch_array($res2)){
-echo " <div class='h-bar'><div class='row'>".$h['day']."</div><hr><div class='row'>".$h['amount']."</div><hr><div class='row'>".$h['status']."</div></div>\n";
+echo " <div class='h-bar'><div class='row'>".$h['day']."</div><hr><div class='row'>".$h['amount']."</div><hr><div class='row' id='".$h['status']."'>".$h['status']."</div></div>\n";
 }
 }else{
     echo "<div class='h-bar'><div class='row'>No history</div></div>";

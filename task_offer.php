@@ -24,7 +24,7 @@ $res = mysqli_query($con, $check_history);
 if(mysqli_num_rows($res) > 0){
 while($h = mysqli_fetch_array($res)){
     $id = $h['id'];
-echo "<a href='view_task?id=".$id."' target='_blank'><div class='h-bar'><div class='row'>".$h['type']."</div><hr><div class='row'>".$h['amount']."</div><hr><div class='row'>".$h['status']."</div></div></a>\n";
+echo "<a href='view_task?id=".$id."' target='_blank'><div class='r-bar'><div class='row'>".$h['type']."</div><hr><div class='row'>".$h['amount']."</div><hr><div class='row ".$h['status']."'>".$h['status']."</div></div></a>\n";
 
 }
 }else{

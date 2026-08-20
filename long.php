@@ -29,6 +29,10 @@ $check_history = "SELECT * FROM tasks_history WHERE email='$user' AND task_id = 
      $update_wallet = "UPDATE users SET balance = '$a' WHERE email = '$user'";
      $res_wallet = mysqli_query($con, $update_wallet);
 
+     $u = $task['users'] + 1; 
+     $update_task = "UPDATE tasks SET users = '$u' WHERE id = '$id'";
+     $res_task = mysqli_query($con, $update_task);
+
      $type = $task['type'];
      $day = date("d/m/y", time());
      $insert_data = "INSERT INTO tasks_history (email, amount, task_id, type, day, status)
